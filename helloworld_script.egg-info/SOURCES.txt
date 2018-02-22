@@ -1,6 +1,0 @@
-helloworld.py
-setup.py
-helloworld_script.egg-info/PKG-INFO
-helloworld_script.egg-info/SOURCES.txt
-helloworld_script.egg-info/dependency_links.txt
-helloworld_script.egg-info/top_level.txt
