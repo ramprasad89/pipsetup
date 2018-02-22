@@ -7,7 +7,7 @@ setup (
 	author='Ram',
 	author_email='ram082.iacr@gmai.com',
 	entry_points = {
-		'console_scripts': ['helloworld=helloworld.helloworld:test'],
+		'console_scripts': ['helloworld=helloworld.helloworld:main'],
 	},
 	install_requires=['boto3', 'awscli'],
 	license='GNU',
