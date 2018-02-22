@@ -1,11 +1,13 @@
 #!/usr/bin/env python
+
+import helloworld
 from setuptools import find_packages, setup
 
 setup (
 	author='Ram',
 	author_email='ram082.iacr@gmai.com',
 	entry_points = {
-		'console_scripts': ['helloworld=helloworld:main'],
+		'console_scripts': ['helloworld=helloworld.helloworld:main'],
 	},
 	install_requires=['boto3', 'awscli'],
 	license='GNU',
